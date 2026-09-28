@@ -1,0 +1,91 @@
+.access-screen {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #020607;
+
+    font-family: monospace;
+    color: #00e5ff;
+}
+
+.access-panel {
+    width: 520px;
+
+    padding: 50px;
+
+    border: 1px solid rgba(0, 229, 255, 0.35);
+
+    background-color: rgba(0, 20, 25, 0.35);
+}
+
+.system-label {
+    font-size: 11px;
+    letter-spacing: 2px;
+
+    color: #00b8cc;
+
+    margin-bottom: 45px;
+}
+
+.access-panel h1 {
+    font-size: 28px;
+    letter-spacing: 4px;
+
+    margin-bottom: 15px;
+}
+
+.access-warning {
+    color: #777;
+
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    margin-bottom: 30px;
+}
+
+.access-panel input {
+    width: 100%;
+
+    padding: 14px;
+
+    background-color: transparent;
+
+    border: 1px solid #35555a;
+
+    color: #00e5ff;
+
+    font-family: monospace;
+    font-size: 13px;
+
+    outline: none;
+}
+
+.access-panel input:focus {
+    border-color: #00e5ff;
+}
+
+.access-panel button {
+    margin-top: 25px;
+
+    padding: 11px 30px;
+
+    background-color: transparent;
+
+    border: 1px solid #00e5ff;
+
+    color: #00e5ff;
+
+    font-family: monospace;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.access-panel button:hover {
+    background-color: #00e5ff;
+    color: #020607;
+}
