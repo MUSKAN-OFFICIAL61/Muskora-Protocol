@@ -1,0 +1,151 @@
+.system-screen {
+    min-height: 100vh;
+
+    background-color: #020607;
+
+    color: #00e5ff;
+
+    font-family: monospace;
+}
+
+
+/* HEADER */
+
+.system-header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 30px;
+
+    border-bottom: 1px solid rgba(0, 229, 255, 0.25);
+
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.system-name {
+    margin-right: 20px;
+}
+
+.system-status {
+    color: #00ff88;
+}
+
+
+/* DASHBOARD */
+
+.dashboard {
+    width: 900px;
+    max-width: 90%;
+
+    margin: 70px auto;
+}
+
+
+/* TITLE */
+
+.dashboard-title p {
+    color: #555;
+
+    font-size: 11px;
+
+    letter-spacing: 3px;
+}
+
+.dashboard-title h1 {
+    margin-top: 10px;
+
+    font-size: 32px;
+
+    letter-spacing: 5px;
+}
+
+
+/* GRID */
+
+.system-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 15px;
+
+    margin-top: 45px;
+}
+
+
+/* CARDS */
+
+.system-card {
+    min-height: 150px;
+
+    padding: 20px;
+
+    text-align: left;
+
+    background-color: transparent;
+
+    border: 1px solid rgba(0, 229, 255, 0.25);
+
+    color: #00e5ff;
+
+    font-family: monospace;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.system-card:hover {
+    border-color: #00e5ff;
+
+    background-color: rgba(0, 229, 255, 0.05);
+
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.2);
+}
+
+
+.card-number {
+    font-size: 10px;
+
+    color: #555;
+}
+
+.system-card h2 {
+    margin-top: 25px;
+
+    font-size: 18px;
+
+    letter-spacing: 2px;
+}
+
+.system-card p {
+    margin-top: 8px;
+
+    font-size: 10px;
+
+    color: #666;
+
+    letter-spacing: 1px;
+}
+
+
+/* STATUS */
+
+.dashboard-status {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 35px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid rgba(0, 229, 255, 0.15);
+
+    color: #555;
+
+    font-size: 10px;
+
+    letter-spacing: 2px;
+}

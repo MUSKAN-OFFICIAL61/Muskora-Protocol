@@ -3,7 +3,7 @@ const loginButton = document.getElementById("loginButton");
 
 loginButton.addEventListener("click", function () {
 
-    const accessId = input.value;
+    const accessId = input.value.trim();
 
     if (accessId === "") {
         alert("ACCESS ID REQUIRED");
@@ -13,5 +13,4 @@ loginButton.addEventListener("click", function () {
     localStorage.setItem("accessId", accessId);
 
     window.location.href = "page3.html";
-
 });
